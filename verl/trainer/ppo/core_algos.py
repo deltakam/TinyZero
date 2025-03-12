@@ -28,7 +28,8 @@ import verl.utils.torch_functional as verl_F
 class AdaptiveKLController:
     """
     Adaptive KL controller described in the paper:
-    https://arxiv.org/pdf/1909.08593.pdf
+    https://arxiv.org/pdf/1909.08593.pdf 
+    KJ: search: "proportional controller"
     """
 
     def __init__(self, init_kl_coef, target_kl, horizon):

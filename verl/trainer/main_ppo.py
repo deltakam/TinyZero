@@ -188,6 +188,8 @@ def main_task(config):
     trainer.init_workers()
     trainer.fit()
 
+    print("FINISHED") #KJ
+
 
 if __name__ == '__main__':
     main()
